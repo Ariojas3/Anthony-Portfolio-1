@@ -1,0 +1,243 @@
+/*Go and get Rock Salt from google fonts*/
+@import url(https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap);
+
+/*Go and get Pontano Sans from google fonts*/
+@import url(https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Rock+Salt&display=swap);
+
+#screen {
+  background: #8dd094;
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  min-height: 100%;
+  max-height: 300%; 
+}
+
+h2 {
+  padding: 20px;
+  color: #8dd094;
+  background: #000000;
+  margin-bottom: -0.01em;
+  margin-top: 0px;
+  margin-left: 0px;
+  flex: 0 1 auto;
+  display: flex;
+  font-family: "Rock Salt";
+  font-size: 15px;
+  padding-top: 3em;
+}
+
+h2:hover{
+  transition: transform 0.5s ease-out;
+  color: #ff0000;
+  transition-property: color;
+}
+
+#search {
+  padding: 30px;
+  background: #000000;
+  display: flex left;
+  flex: 1 1 auto;
+}
+
+.searchl {
+  display: flex;
+  margin: 0 auto;
+  background: #000000;
+  padding-left: 40px;
+  transform: translateX(190px);
+}
+
+.container {
+  display: flex center;
+  justify-content: flex-end;
+  padding: 19px;
+  font-size: 16.5px;
+  background: #000000;
+  flex-flow: row wrap;
+}
+
+
+li {
+  margin-right: 0.7em;
+  display: inline-block;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+a {
+  color: #8dd094;
+  font-family: "Rock Salt";
+  cursor: pointer;
+}
+a:hover {
+  color: #0021d1;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #8dd094;
+  display: flex center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: #ffffff;
+  font-family: "Rock Salt";
+}
+h1:hover {
+  color: #000000;
+  transition: transform 0.5s ease-out;
+  transition-property: color;
+}
+
+h3 {
+  font-family: "Rock Salt";
+  font-size: 70px;
+  padding-left: 1em;
+  color: #ffffff;
+  display: flex center; 
+}
+
+h3:hover{
+  color: #0021d1;
+  text-shadow: 1px 3px 8px #ffffff;
+  transition: transform 1s ease-out;
+  transition-property: color;
+  
+}
+
+body {
+  background: #cccce5;
+}
+
+.image {
+  margin: 0 auto;
+  width: 200px;
+  margin-right: 200px;
+  margin-top: -600px;
+  display: flex; 
+  justify-content: space-around; 
+  transition: transform 0.5s ease-out;
+}
+
+
+.image:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease-out;
+  color: #f0e68c;
+}
+
+.text {
+  font-family: "Rock Salt";
+  font-size: 20px;
+  flex: 2 2 auto;
+  display: flex;
+  color: #708090;
+  text-align: left;
+  max-width: 850px;
+  background: #cccce5;
+  padding: 20px;
+  margin-left: 1em;
+}
+
+.text:hover{
+  transition: transform 1s ease-out;
+  transition-property: color;
+  color: #000000;
+}
+.quote2 {
+  color: #ffffff;
+  font-family: "Rock Salt";
+  margin-right: 20px;
+  float: right;
+  font-size: 30px;
+  top: 60%;
+}
+
+.button {
+  font-family: "Pontano Sans";
+  font-size: 60px;
+  border: 4;
+  color: #0021d1;
+  cursor: pointer;
+  transition: transform 0.5s ease-out;
+  padding: button-padding;
+  background: #8dd094;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(220, 220, 280, 200), 0 0 3px;
+  flex: 0 0 25%;
+  margin-bottom: 1.5em;
+  margin-left: 4.5em;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  color: #ff0000;
+  text-shadow: 1px 3px 8px #000000; 
+}
+
+.main {
+  width: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.block--one {
+  flex: 1 1 300px;
+  padding: 4% 5em;
+  display: flex center;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #000000;
+}
+
+.block--two {
+  background: #000000;
+  flex: 1 1 300px;
+  padding: 4% 5em;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex center; 
+}
+
+.block--three {
+  background: #000000;
+  flex: 1 1 300px;
+  padding: 4% 5em;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex center;
+}
+
+.block--four {
+  background: #000000;
+  flex: 1 1 500px;
+  padding: 4% 5em;
+  flex-flow: row wrap;
+  justify-content: flex-start; 
+  display: flex center;
+  height: 50em;
+  max-height: 300em;
+}
+
+.copyright {
+  color: #000000;
+  flex: 1;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .view {
+    width: 400px;
+  }
+}
+/* For Tablets */ 
+@media screen and (min-width: 540px) and (max-width: 780px){
+  .view{
+    width: 600px;
+  }
+}
